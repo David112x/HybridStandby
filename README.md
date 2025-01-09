@@ -1,5 +1,5 @@
 # HybridStandby
-## This is currently a concept that is in developed, no actual program has been developed or has entered development yet.
+## This is currently a concept that is in development, no actual program has been developed or has entered development yet.
 
 Hybrid Standby, a service for Windows that aims to improve S0/Modern Standby/Low Power Idle, it does this by listening for power events and in the case of the system entering modern standby, it will suspend non-critical system applications and services and when leaving modern standby (waking up), it wakes up all of those processes so that the system may resume working normally.
 
